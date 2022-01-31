@@ -1,0 +1,293 @@
+@media screen and (max-width:600px){
+    .material-icons{
+        transition: 0.5s;
+    }
+
+    .intro-face{
+        height: 600px;
+    }
+    .nav-bar-options{
+        display: none;
+    }
+    .intro-text>h1{
+        font-weight: lighter;
+        font-size: 60px;
+        font-family: pally;
+        color: beige;
+        margin: 50px 0px;
+    }
+    .intro-image{
+        padding-top: 100px;
+        
+    }
+    .intro-image>img{
+        width: 200px;
+    }
+    .nav-bar-title{
+        font-size: 30px;
+        color: beige;
+        margin-left: 25px;
+        margin-top: 8px;
+        
+    }
+    .nav-bar-menu{
+        color: beige;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: 2vw;
+        display: flex;
+        transition-duration: 2s;
+    }
+    .nav-bar-mob-content{
+        position: sticky;
+        height: 100vh;
+        width: 100%;
+        top: 1px;
+        background-color: rgb(255, 255, 255);
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 60px;
+        z-index: 3;
+    }
+    .nav-bar-mob-content>div{
+        border-bottom: 1px solid rgb(255, 255, 255);
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: rgb(44, 44, 44);
+        background-color: beige;
+        
+    }
+    .menu-header-text{
+        font-size: 40px;
+        left: 10%;
+    }
+    .menus{
+        grid-template-columns: auto;
+    }
+    .riding-solo{
+        background-color: #539936;
+        height: 500px;
+        width: 90%;
+        margin: 2vw;
+        border: solid 10px #c1ffa7c9;
+        border-radius: 50px;
+        margin-top: 10px;
+    }
+    .riding-solo>img{
+        height: 250px;
+        
+        margin: 80px auto;
+    }
+    .riding-solo-menu{
+        margin: 10px 5%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .riding-solo-header{
+        background-color: #539936;
+        color: beige;
+        width: 60%;
+        margin-left: auto;
+        text-align: center;
+        font-size: 30px;
+        height: 50px;
+    }
+    .riding-solo-content{
+        background-color: #D6EDCC;
+        padding: 25px;
+        height: 650px;
+        border-radius: 15px 0px 15px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .riding-solo-content-column{
+        display: flex;
+        flex-direction: row;
+    }
+    .riding-solo-content-column>div>h3{
+        color: #539936;
+        font-size: 25px;
+    }
+    .order-price{
+        margin-left: auto;
+        margin-right: 0px;
+    }
+    .order-price>h4{
+        margin: 0px;
+        margin-top: 25px;
+    }
+    .order-btn-solo{
+        background-color: #539936;
+        color: beige;
+        border: 5px #c3ffaa solid;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+    .you-and-i-header{
+        height: 50px;
+        width: 60%;
+        margin-top: 10px;
+    }
+    .you-and-i-content{
+        background-color: #FCE8CA;
+        padding: 25px;
+        height: 200px;
+        border-radius: 0px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .you-and-i-content-column>div>h3{
+        color: #FFB448;
+        font-size: 30px;
+    }
+    .you-and-i-content-column{
+        display: flex;
+        flex-direction: row;
+    }
+    .order-btn-you-and-i{
+        background-color: #FFB448;
+        color: beige;
+        border: 5px #ffe3bc solid;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+    .you-and-i{
+        height: 500px;
+        width: 90%;
+        margin-top: 80px;
+        margin: 2vw;
+    }
+    .you-and-i>img{
+        height: 250px;
+        margin: 80px 23%;
+    }
+    .turkey-meal{
+        background-color: #99582B;
+        height: 500px;
+        width: 90%;
+        margin: 2vw;
+        border: solid 10px #EAD7C5;
+        border-radius: 50px;
+        margin-top: 80px;
+    }
+    .turkey-meal>img{
+        height: 250px;
+        margin: 80px 23%;
+    }
+    .turkey-meal-header{
+        background-color: #99582B;
+        color: beige;
+        width: 60%;
+        margin-left: auto;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 30px;
+        height: 50px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .turkey-meal-content{
+        background-color: #EAD7C5;
+        padding: 25px;
+        height: 200px;
+        border-radius: 15px 0px  15px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .turkey-meal-content-column>div>h3{
+        color: #99582B;
+        font-size: 30px;
+    }
+    .turkey-meal-content-column{
+        display: flex;
+        flex-direction: row;
+    }
+    .order-btn-turkey-meal{
+        background-color: #99582B;
+        color: beige;
+        border: 5px #fff1e7 solid;
+        border-radius: 30px;
+        font-size: 20px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+    .other-menus{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .packs-content{
+        padding: 10px;
+        height: 850px;
+    }
+    .packs-h4{
+        margin-left: auto;
+        margin-right: 2px;
+        font-size: large;
+    }
+    .packs-span{
+        font-size: 25px;  color:#e94f37;
+    }
+    .packs-p{
+        font-size:20px; width: 80%;
+    }
+    .packs-h2{
+        font-size: 20px;
+    }
+    .reviews_et_about{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .reviews{
+        width: 90vw;
+    }
+    .about{
+        width: 90vw;
+    }
+    .review-container{
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .review-header{
+        background-color: rgb(255, 255, 255); 
+        color: grey; 
+        margin-top: 50px; 
+        margin: 0px 10%; 
+        text-align: center; 
+        height: 50px; 
+        font-size:xx-large;
+    }
+    .review-imgs{
+        width: 80%;
+        height: 300px;
+        object-fit: fill;
+        margin: -170px 10%;
+        margin-top: 0px;
+    }
+    .prev{
+        position:absolute;
+        top: 40%;
+        left: 10%;
+        background-color: rgba(85, 85, 85, 0.508);
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: x-large;
+        border: none;
+    }
+    .next{
+        position: absolute;
+        right:10%;
+        top: 40%;
+        background-color:  rgba(85, 85, 85, 0.508);
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        font-size: x-large;
+        border: none;
+    }
+}
