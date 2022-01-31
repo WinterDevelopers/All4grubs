@@ -74,9 +74,9 @@
         border-radius: 50px;
         margin-top: 10px;
     }
-    .riding-solo>img{
+    .riding-solo-img{
         height: 250px;
-        
+        width: 200px;
         margin: 80px auto;
     }
     .riding-solo-menu{
@@ -163,9 +163,9 @@
         margin-top: 80px;
         margin: 2vw;
     }
-    .you-and-i>img{
+    .you-and-i-img {
         height: 250px;
-        margin: 80px 23%;
+        margin: 80px;
     }
     .turkey-meal{
         background-color: #99582B;
@@ -178,7 +178,7 @@
     }
     .turkey-meal>img{
         height: 250px;
-        margin: 80px 23%;
+        margin: 80px;
     }
     .turkey-meal-header{
         background-color: #99582B;
@@ -220,9 +220,19 @@
         display: grid;
         grid-template-columns: auto;
     }
+    .full-squad-content{
+        height: 500px;
+        width: 85vw;
+    }
+    .you_and_i-content{
+        height: 660px;
+        width: 85vw;
+
+    }
     .packs-content{
         padding: 10px;
         height: 850px;
+        width: 85vw;
     }
     .packs-h4{
         margin-left: auto;
