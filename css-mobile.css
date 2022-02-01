@@ -21,7 +21,7 @@
         
     }
     .intro-image>img{
-        width: 200px;
+        width: 70vw;
     }
     .nav-bar-title{
         font-size: 30px;
@@ -221,7 +221,7 @@
         grid-template-columns: auto;
     }
     .full-squad-content{
-        height: 500px;
+        height: 650px;
         width: 85vw;
     }
     .you_and_i-content{
