@@ -21,7 +21,7 @@
         </div>
 
         <div class="nav-bar-options">
-            <div>menus</div>
+            <div id="mobile-menu"><a href="#menus">Menus</a></div>
             <div>Services</div>
             <div>Special Orders</div>
             <div>About</div>
@@ -30,7 +30,7 @@
 
     <div class="none" id="nav-bar-mob-content">
        <div>
-           Menus
+        <div id="mobile-menu" onclick="menu_content_btn()"><a href="#menus" style="color: rgb(26, 26, 26);">Menus</a></div>
        </div>
        <div>
             Services
@@ -39,7 +39,7 @@
             Special Orders
         </div>
         <div>
-            About
+           <div onclick="menu_content_btn()"><a href="#about" style="color: rgb(26, 26, 26);"> About</a></div>
         </div>
     </div>
 
@@ -60,16 +60,18 @@
             from our list chioces
         </div>
     </div>
-    <div class="menus">
+    <div class="menus" id="menus">
         <!-- riding solo -->
         <div class="riding-solo">
             <div class="riding-solo-img">
                 <img src="content/Riding Solo (2.6 x 3.6 inches).png" alt="menu-riding-solo" style="width: 200px;">
             </div>
+            <button class="view-menu-riding-solo" onclick="view_btn(riding_solo_btn)"> view menu</button>
         </div>
         <div class="riding-solo-menu">
-            <div class="riding-solo-header">Riding Solo</div>
-            <div class="riding-solo-content">
+            <div id="riding-solo" class="none-mobile">
+                <div class="riding-solo-header">Riding Solo</div>
+                <div class="riding-solo-content">
                 <div class="riding-solo-content-column">
                     <div>
                         <h3>Chicken</h3>
@@ -115,19 +117,20 @@
                  </div>
                 
             </div>
+            </div>
         </div>
         <!-- End of the menu -->
         <!-- you and i -->
         <div class="you-and-i">
-            
             <div class="you-and-i-img">
                 <img src="content/Chicken Meal(2.6 x 3.6 inches).png" alt="menu-riding-solo" style="width: 200px;">
             </div>
-           
+            <button onclick="view_btn(you_and_i_btn)" class="view-menu-you-and-i"> View Menu</button>
         </div>
         <div class="riding-solo-menu">
-            <div class="you-and-i-header">Chicken Meal</div>
-            <div class="you-and-i-content">
+            <div id="you-and-i-content" class="none-mobile">
+                <div class="you-and-i-header">Chicken Meal</div>
+                <div class="you-and-i-content" >
                 <div class="you-and-i-content-column">
                     <div>
                         <h3>Chicken pack</h3>
@@ -139,17 +142,19 @@
                     </div>
                 </div>   
             </div>
+            </div>
         </div>   
         <!-- Ends here -->
         <!-- chicken meal -->
         <div class="turkey-meal">
             <img src="content/Turkey Meal (2.6 x 3.6 inches).png" alt="menu-riding-solo">
-            <div class="none">
-
-            </div>
+            <button class="view-menu-turkey-meal" onclick="view_btn(turkey_btn)">
+                View Menu
+            </button>
         </div>
         <div class="riding-solo-menu">
-            <div class="turkey-meal-header">Turkey Meal</div>
+            <div id="turkey-meal" class="none-mobile">
+                <div class="turkey-meal-header">Turkey Meal</div>
             <div class="turkey-meal-content">
                 <div class="turkey-meal-content-column">
                     <div>
@@ -162,12 +167,10 @@
                         <div class="order-btn-turkey-meal"><a href="https://api.whatsapp.com/send?phone=2348187241462&text= will be needing 2 pcs of turkey wings, 1 portion of Chips, 1 coleslaw & 1 of soft drink for 4800"> Order </a></div>
                     </div>
                 </div>
-                
-            
+            </div>
             </div>
         </div>   
         <!-- ends here -->
-
     </div>
     <div class="other-menus">
         <div class="full-squad">
@@ -338,7 +341,7 @@
             </div>
         </div>
     </div>
-    <div style="margin-top:50px;">
+    <div style="margin-top:50px;" id="about">
         <div style="background-color: rgb(79, 79, 79); text-align: center; height: 100px; margin-top: 20px; margin: 0px 10%; font-size: xx-large; color: white;">
             <h2 style="margin-bottom: 2px;">About</h2>
             <p style="margin-top: 2px; font-size: small;">what we offer</p>

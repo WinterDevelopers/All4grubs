@@ -174,7 +174,7 @@
         margin: 2vw;
         border: solid 10px #EAD7C5;
         border-radius: 50px;
-        margin-top: 80px;
+        margin-top: 10px;
     }
     .turkey-meal>img{
         height: 250px;
@@ -299,5 +299,38 @@
         text-align: center;
         font-size: x-large;
         border: none;
+    }
+    .view-menu-riding-solo{
+        margin: 10px 29vw;
+        border:  #d0edc4 4px solid;
+        background-color: #b8eda1;
+        color: #539936;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .view-menu-riding-solo:hover{
+        background-color: rgb(252, 252, 252);
+    }
+    .view-menu-you-and-i{
+        margin: 10px 29vw;
+        border:  #ffefd8 4px solid;
+        background-color: #f8e0bf;
+        color: #fda62b;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .view-menu-turkey-meal{
+        margin: 10px 29vw;
+        background-color: #eeccb3;
+        color: #99582B;
+        border: 4px #fff1e7 solid;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .none-mobile{
+        display:none;
     }
 }

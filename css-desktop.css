@@ -24,6 +24,9 @@ body{
 .none{
     display: none;
 }
+.none-mobile{
+    display:block;
+}
 .nav-bar{
     background-color: rgba(133, 133, 133, 0.494);
     width: 100%;
@@ -442,6 +445,19 @@ body{
     text-align: center;
     font-size: 50px;
     border: none;
+}
+.view-menu-riding-solo{
+    margin: 10px 29vw;
+    border:  #d0edc4 2px solid;
+    background-color: #b8eda1;
+    color: #539936;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.view-menu-riding-solo:hover{
+    color: beige;
+    background-color: brown;
 }
 .footer{
     margin-top: 50px;

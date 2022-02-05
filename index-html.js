@@ -1,8 +1,21 @@
-function nav_bar_mobile_icon(){
-    var x = document.getElementById('navbar-menu')
-    var y = document.getElementById('nav-bar-mob-content')
-    var z = document.getElementById('navbar-menu-close')
+var y = document.getElementById('nav-bar-mob-content');
+var z = document.getElementById('navbar-menu-close');
+var x = document.getElementById('navbar-menu');
 
+var riding_solo_btn = document.getElementById('riding-solo');
+var you_and_i_btn = document.getElementById("you-and-i-content");
+var turkey_btn = document.getElementById("turkey-meal");
+function view_btn(name){
+    if(name.className !== "none-mobile"){
+        name.className = "none-mobile"
+    }
+    else{
+        name.className = ""
+    }
+}
+
+function nav_bar_mobile_icon(){
+   
     if(x.className === 'nav-bar-menu'){
         x.className = 'none'
         y.className = 'nav-bar-mob-content'
@@ -15,6 +28,14 @@ function nav_bar_mobile_icon(){
         z.className = 'none'
     }
 }
+
+function menu_content_btn(){
+    y.className = 'none'
+    z.className = 'none'
+    x.className = 'nav-bar-menu'
+
+}
+
 var slideIndex = 1;
 reviewSlides(slideIndex)
 
