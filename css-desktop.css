@@ -122,11 +122,12 @@ body{
     border-radius: 50px;
     margin-top: 80px;
 }
-.riding-solo>img{
+.riding-solo-img>img{
     height: 400px;
-    width: auto;
-    margin: 80px 22%;
+    width: 300px;
+    margin: 80px 100px;
 }
+
 .riding-solo-menu{
     margin: 10px 5%;
     display: flex;
@@ -158,6 +159,9 @@ body{
 .riding-solo-content-column>div>h3{
     color: #539936;
     font-size: 30px;
+}
+.view-menu-riding-solo{
+    display: none;
 }
 .order-price{
     margin-left: auto;
@@ -220,9 +224,13 @@ body{
     border-radius: 50px;
     margin-top: 80px;
 }
-.you-and-i>img{
+.you-and-i-img>img{
     height: 400px;
-    margin: 80px 30%;
+    width: 300px;
+    margin: 80px 100px;
+}
+.view-menu-you-and-i{
+    display: none;
 }
 .turkey-meal{
     background-color: #99582B;
@@ -234,7 +242,7 @@ body{
 }
 .turkey-meal>img{
     height: 400px;
-    margin: 80px 30%;
+    margin: 80px 100px;
 }
 .turkey-meal-header{
     background-color: #99582B;
@@ -262,6 +270,9 @@ body{
 .turkey-meal-content-column{
     display: flex;
     flex-direction: row;
+}
+.view-menu-turkey-meal{
+    display: none;
 }
 .order-btn-turkey-meal{
     background-color: #99582B;
@@ -416,11 +427,12 @@ body{
 }
 .review-container{
     margin: 0px ;
+    margin-top: 10px;
     position: relative;
 }
 .review-imgs{
     width: 80%;
-    height: 500px;
+    height: 270px;
     object-fit: fill;
     margin: -10px 10%;
 }
@@ -447,6 +459,7 @@ body{
     border: none;
 }
 .view-menu-riding-solo{
+    
     margin: 10px 29vw;
     border:  #d0edc4 2px solid;
     background-color: #b8eda1;
@@ -458,6 +471,10 @@ body{
 .view-menu-riding-solo:hover{
     color: beige;
     background-color: brown;
+}
+.about-and-review{
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .footer{
     margin-top: 50px;

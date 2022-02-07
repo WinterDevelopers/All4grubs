@@ -49,7 +49,7 @@ function reviewSlides(n){
     if(n > image_index.length){
         slideIndex = 1
     }
-    if(n < 0){
+    if(n < 1){
         slideIndex = image_index.length
     }
     for(a=0; a < image_index.length; a++){
