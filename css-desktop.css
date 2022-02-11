@@ -15,8 +15,10 @@ a{
 
 body{
     background-color: rgb(230, 230, 230);
-    /*background-image: url(content/Fries.png);
-    background-repeat: repeat;*/
+    background-image: url(content/all4grubs\ pattern.png);
+    background-repeat: repeat;
+    background-size: 150px;
+    background-blend-mode:overlay;
     padding: 0px;
     margin: 0px;
     font-family: pally;
