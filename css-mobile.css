@@ -1,4 +1,4 @@
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .material-icons{
         transition: 0.5s;
     }
@@ -69,7 +69,7 @@
         background-color: #539936;
         height: 500px;
         width: 90vw;
-        margin: 2vw;
+        margin: 0.5vw;
         border: solid 10px #c1ffa7c9;
         border-radius: 50px;
         margin-top: 10px;
@@ -167,7 +167,7 @@
         height: 500px;
         width: 90vw;
         margin-top: 80px;
-        margin: 1vw;
+        margin: 0.5vw;
     }
     .you-and-i-img >img{
         width: 200px;
@@ -179,7 +179,7 @@
         background-color: #99582B;
         height: 500px;
         width: 90%;
-        margin: 2vw;
+        margin: 1.3vw;
         border: solid 10px #EAD7C5;
         border-radius: 50px;
         margin-top: 10px;
@@ -288,10 +288,11 @@
     }
     .review-imgs{
         width: 80%;
-        height: 300px;
+        height: 400px;
         object-fit: fill;
         margin: -170px 10%;
         margin-top: 0px;
+        margin-bottom: 50px;
     }
     .prev{
         position:absolute;
